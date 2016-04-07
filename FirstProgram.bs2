@@ -1,0 +1,16 @@
+'{$STAMP BS2}
+'{$PBASIC 2.5}
+
+' Stamps un Class - FirstProgram.bs2
+' BASIC Stamp sends message to Debug Terminal.
+'	Actor: Jose Escobar Mejia
+'	Class: Intro to Engineering - UDC
+'	Date: April 05, 2016
+
+DEBUG CR, "What's 7 X 11?"
+DEBUG CR, "The answer is: "
+DEBUG DEC 7 * 11
+
+'PAUSE 1000 ' This delays the program for about 1 second before start running
+DEBUG "Hello, it's me, your BASIC Stamp!"
+END
